@@ -167,7 +167,7 @@ def main():
 		#       2. Save the signature to the file
 		fileSig = getFileSig(inputFileName,key)
 		saveSig(sigFileName, fileSig)
-		print "Signature saved to file ", sigFileName
+		print("Signature saved to file " + sigFileName)
 
 	# We are verifying the signature
 	elif mode == "verify":
@@ -177,11 +177,11 @@ def main():
 		# signature of the input file
 		sig = loadSig(sigFileName)
 		if verifyFileSig(inputFileName, key, sig) == True:
-			print("Signatures match!")
+			print "Signatures match!"
 		else:
-			print("Signatures DO NOT MATCH!")
+			print "Signatures DO NOT MATCH!"
 	else:
-		print "Invalid mode ", mode
+		print "Invalid mode " +  mode
 
 ### Call the main function ####
 if __name__ == "__main__":
