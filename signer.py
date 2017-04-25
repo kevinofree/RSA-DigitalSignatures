@@ -167,7 +167,7 @@ def main():
 		#       2. Save the signature to the file
 		fileSig = getFileSig(inputFileName,key)
 		saveSig(sigFileName, fileSig)
-		print("Signature saved to file " + sigFileName)
+		print "Signature saved to file " + sigFileName
 
 	# We are verifying the signature
 	elif mode == "verify":
