@@ -1,11 +1,15 @@
-Write a README file (text file, do not submit a .doc file) which contains
+Utility for creating and verifying digital signatures
 
-– Names and email addresses of all partners.
+Team Members
+Joseph Porter    (porterj091@csu.fullerton.edu)
+Luis Covarrubias (luiscovar@csu.fullerton.edu)
+Kevin Ochoa      (ochoakevinm@gmail.com) 
 
-– The programming language you used (e.g. Python, Java, or C++)
+Programming language used: Python
 
-– How to execute your program.
+To execute this program run:
+python signer.py <KEY FILE NAME> <SIGNATURE FILE NAME> <INPUT FILE NAME> <MODE>
 
-– Whether you implemented the extra credit.
+No Extra Credit
 
-– Anything special about your submission that we should take note of.
+Anything Special: I wish
